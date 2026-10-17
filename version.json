@@ -1,1 +1,8 @@
-{"versionCode":49,"versionName":"6.2","apkUrl":"https://github.com/droidforgeindo/DFDetector/releases/download/v6.2/DroidForgeRootDetector.apk","changelog":"- Perbaikan URL cek pembaruan"}
+apkUrl:
+"https://github.com/droidforgeindo/DFDetector/releases/download/v6.3/DroidForgeDetector-v6.3.apk"
+changelog:
+"v6.3 — Official English release notes published. Bug fixes from previous versions: • v6.2 — Fixed OTA update check URL to the correct public repository (droidforgeindo/DFDetector). • v6.1 — New: one-tap OTA updates via GitHub (automatic check max once per 24h, download via DownloadManager, tap-to-install notification). • v6.0 — Fixed force close when opening the About dialog (it was built with a locale-wrapped context lacking the Activity window token). Scan sounds switched from SoundPool to MediaPlayer for guaranteed playback. • v5.9 — Scan result sounds now play instantly with zero delay (preloaded at startup). • v5.8 — Removed the /data/adb module-directory check; added a "Test sound" button in the About dialog. • v5.7 — Removed the experimental toolbar reboot button; toolbar restored to original. • v5.5 — New: audio alerts — pleasant chime when clean, warning alarm when root is detected (also used by the boot-scan notification). • v5.4 — About, check-detail, and bootloader dialogs now follow the language switch immediately. • v5.3 — su binary detection now probes absolute paths (/system/bin/su, /data/adb/ksu/bin/su, …), fixing SukiSU/KernelSU devices where su was not on PATH. • v5.2 — /data/adb check falls back to "su -c ls /data/adb" so rooted devices get a definitive result instead of UNKNOWN. • v5.1 — Language toggle is now instant (updates rows in place instead of rebuilding the list). • v5.0 — Removed the unstable boot overlay; boot auto-scan is now notification-only (heads-up + full-screen intent + ongoing notification). Fixed su process deadlock during boot scans."
+versionCode:
+50
+versionName:
+"6.3"
